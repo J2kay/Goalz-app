@@ -1,0 +1,62 @@
+#homeContainer {
+  background-color: #EFEBE0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  height: 90vh; 
+  width: 80vw;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Goal input area container */
+#goalInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  width: 60vw; 
+  margin-bottom: 20px;
+}
+
+/* GoalList container */
+#goalListContainer {
+  background-color: white;
+  width: 60vw;
+  max-height: 40vh;
+  overflow-y: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* GoalList item styles */
+.listItem {
+  margin-bottom: 30px;
+}
+
+/* Add goal button */
+#addGoalButton {
+  margin-top: 10px;
+}
+
+/* Logout button */
+#logoutButton {
+  background-color: #71E7E0;
+  border-radius: 3px;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+/* Adjust width for the goal input and date input */
+#goalInputContainer Form {
+  width: 100%;
+  max-width: 600px; /* Adjust max-width as needed */
+}
+
+#goalInputContainer .date {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 200px; /* Adjust max-width as needed */
+}

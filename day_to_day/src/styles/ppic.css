@@ -1,0 +1,36 @@
+
+#imageUploadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+  overflow: hidden;
+}
+
+#chooseImageButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+#chooseImageButton img {
+  border-radius: 50%;
+  max-width: 200px; /* Adjust as needed */
+  max-height: 200px; /* Adjust as needed */
+  margin-bottom: 0;
+}
+
+#uploadInput {
+  display: none;
+}
+
+#uploadButton {
+ 
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 8px;
+  border-radius: 5px;
+}
